@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+
+  position: relative;
+  top: 72px;
+  width: 432px;
+  height: 600px;
+  background: #000000;
+  border-radius: 61px;
+  opacity: 1;
+  margin: 0 auto;
+  color: white;
+}
+
+.container {
+  padding: 0.8rem 5.5rem;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.container > img {
+  width: 100%;
+}
+.app-title {
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0.8rem 0;
+  font-size: 1.7rem;
+}
+
+.confirmation-stage {
+  position: relative;
+  top: 8%;
+  font-size: 2.3rem;
+}
+
+/* 
+
+GLOBAL CSS
+
+*/

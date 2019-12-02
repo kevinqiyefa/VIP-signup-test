@@ -1,0 +1,145 @@
+.dilivery-btn {
+  position: absolute;
+  text-align: center;
+  width: 70%;
+  left: 50%;
+  top: 34%;
+  transform: translate(-50%, 0);
+  background: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  border-radius: 16px;
+  color: #030303;
+  z-index: 1;
+  -webkit-animation: slideUp 0.5s; /* Safari 4.0 - 8.0 */
+  animation: slideUp 0.5s;
+  transition: top 0.5s;
+}
+
+.dilivery-btn:after {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -13px;
+  border-width: 13px;
+  border-style: solid;
+  border-color: white;
+  height: 9px;
+  background-color: white;
+  border-radius: 50% 50% 0% 0% / 100% 100% 0% 0%;
+  transform: rotate(-180deg);
+  z-index: -999;
+}
+
+.calendar {
+  background: white;
+  height: 230px;
+  border-radius: 16px;
+  width: 63%;
+  left: 50%;
+  top: 45%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  color: black;
+  transition: top 0.5s;
+  padding: 1rem;
+}
+
+.selected-btn {
+  background: #c3f8ec;
+}
+
+.selected-btn:after {
+  border-color: #c3f8ec;
+  background-color: #c3f8ec;
+}
+
+.confirmed-btn {
+  top: 31.9%;
+  width: 76%;
+  font-size: 1.6rem;
+  padding: 0.23rem 0;
+  background: #9fffe9;
+  font-weight: 750;
+}
+
+.confirmed-btn:after {
+  content: none;
+}
+
+.confirmed-calendar {
+  top: 40%;
+  z-index: 1;
+}
+
+.check-mark {
+  width: 3rem;
+  position: absolute;
+  bottom: 3.5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 0.3rem;
+  background: #83ffe3;
+}
+
+.month {
+  text-align: left;
+  margin: 0;
+  padding-bottom: 5px;
+}
+.dates {
+  text-align: left;
+}
+
+.weeks {
+  display: flex;
+}
+
+.date {
+  display: flex;
+  margin: 0;
+  max-width: 38.1px;
+  width: 100%;
+  height: 36px;
+  border: 1px solid #707070;
+  align-items: center;
+  justify-content: center;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  font-weight: 900;
+  font-size: 1.18rem;
+  background: #c3c3c3;
+}
+
+.date.avaliable {
+  cursor: pointer;
+  background: white;
+}
+.date.avaliable.selected {
+  background: #9fffe9;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slideUp {
+  0% {
+    top: 88%;
+  }
+
+  100% {
+    top: 34%;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    top: 88%;
+  }
+
+  100% {
+    top: 34%;
+  }
+}

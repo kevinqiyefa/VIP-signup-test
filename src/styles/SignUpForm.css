@@ -1,0 +1,136 @@
+.sign-up-form {
+  margin-top: 1.6rem;
+}
+
+.inputFields,
+select {
+  width: 100%;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 31px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  color: #030303;
+  font-weight: 700;
+  outline: none;
+  margin: 0.8rem 0;
+}
+
+.gender-drop-down {
+  position: relative;
+  padding: 0;
+}
+select {
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.circle {
+  width: 23px;
+  border: 1px solid #707070;
+  height: 23px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1.15rem;
+  right: 10px;
+}
+.circle-pink {
+  background: #eda4ed;
+}
+.circle-blue {
+  background: #87ceeb;
+}
+
+.address {
+  position: relative;
+}
+
+.address > input {
+  padding-right: 2.5rem;
+  padding-left: 0.8rem;
+}
+
+.car-body {
+  position: absolute;
+  right: 15px;
+  width: 23px;
+  height: 12px;
+  top: 23px;
+  border: 1px solid #707070;
+}
+.car-head {
+  position: absolute;
+  border: 1px solid #707070;
+  width: 6px;
+  height: 8px;
+  top: 27px;
+  right: 8px;
+}
+
+.car-rear-wheel,
+.car-front-wheel {
+  position: absolute;
+  border: 1px solid #707070;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  top: 33px;
+  right: 30px;
+  background: white;
+}
+
+.car-front-wheel {
+  right: 11px;
+}
+
+.email {
+  padding: 0 0.8rem;
+}
+
+.sign-up-submit-btn {
+  position: absolute;
+  text-align: center;
+  width: 70%;
+  left: 50%;
+  bottom: 12%;
+  transform: translate(-50%, 0);
+  background: #c3f8ec;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  border-radius: 16px;
+  color: #030303;
+}
+
+.sign-up-submit-btn:after {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -13px;
+  border-width: 13px;
+  border-style: solid;
+  border-color: #c3f8ec;
+  height: 9px;
+  background-color: #c3f8ec;
+  border-radius: 50% 50% 0% 0% / 100% 100% 0% 0%;
+  transform: rotate(-180deg);
+  z-index: -999;
+}
+
+.sign-up-submit-btn:hover {
+  cursor: pointer;
+}
+
+.sign-up-submit-btn:active {
+  background: white;
+}
+
+.sign-up-submit-btn:active:after {
+  border-color: white;
+}
